@@ -1,0 +1,33 @@
+{
+  "manifest_version": 3,
+  "name": "115 影视整理助手",
+  "version": "0.2.0",
+  "description": "在 115 页面内递归整理影视目录到已配置的目标目录。",
+  "permissions": ["storage"],
+  "host_permissions": [
+    "https://115.com/*",
+    "https://*.115.com/*",
+    "https://webapi.115.com/*",
+    "https://api.themoviedb.org/*",
+    "https://*/*",
+    "http://*/*"
+  ],
+  "background": {
+    "service_worker": "service-worker.js",
+    "type": "module"
+  },
+  "action": {
+    "default_title": "115 影视整理助手设置"
+  },
+  "options_ui": {
+    "page": "options.html",
+    "open_in_tab": true
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://115.com/*", "https://*.115.com/*"],
+      "js": ["snippets/organize-115-media-helper.user.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}

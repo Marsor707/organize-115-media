@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>115 影视整理助手设置</title>
+    <link rel="stylesheet" href="./options.css">
+  </head>
+  <body>
+    <main class="settings-shell">
+      <section class="settings-panel">
+        <header class="settings-head">
+          <div>
+            <p class="eyebrow">Chrome Extension</p>
+            <h1>115 影视整理助手设置</h1>
+          </div>
+          <button id="clear" class="ghost" type="button">清除配置</button>
+        </header>
+
+        <div class="risk-note">
+          API Key 会保存到 <code>chrome.storage.local</code>。
+          TMDB / OpenAI 请求由当前浏览器直接发出，片名和文件名上下文会发送给配置的第三方 API。
+        </div>
+
+        <form id="settings-form" class="settings-form">
+          <fieldset>
+            <legend>整理目标目录</legend>
+            <p class="field-hint">
+              目标目录用于承接“递归整理当前目录”的输出；真实执行以 cid 为准，名称只用于展示。
+            </p>
+            <label>
+              <span>targetRootCid</span>
+              <input id="targetRootCid" name="targetRootCid" type="text" autocomplete="off" inputmode="numeric">
+            </label>
+            <label>
+              <span>targetRootName</span>
+              <input id="targetRootName" name="targetRootName" type="text" autocomplete="off">
+            </label>
+          </fieldset>
+
+          <fieldset>
+            <legend>TMDB</legend>
+            <label>
+              <span>TMDB_API_KEY</span>
+              <input id="tmdbApiKey" name="tmdbApiKey" type="password" autocomplete="off">
+            </label>
+            <label>
+              <span>TMDB_API_BASE_URL</span>
+              <input id="tmdbBaseUrl" name="tmdbBaseUrl" type="url" autocomplete="off">
+            </label>
+          </fieldset>
+
+          <fieldset>
+            <legend>OpenAI / LLM fallback</legend>
+            <label class="toggle-row">
+              <input id="enableLlmFallback" name="enableLlmFallback" type="checkbox">
+              <span>启用 LLM fallback</span>
+            </label>
+            <label>
+              <span>OPENAI_API_KEY</span>
+              <input id="openaiApiKey" name="openaiApiKey" type="password" autocomplete="off">
+            </label>
+            <label>
+              <span>OPENAI_BASE_URL</span>
+              <input id="openaiBaseUrl" name="openaiBaseUrl" type="url" autocomplete="off">
+            </label>
+            <label>
+              <span>OPENAI_MODEL</span>
+              <input id="openaiModel" name="openaiModel" type="text" autocomplete="off">
+            </label>
+          </fieldset>
+
+          <footer class="actions">
+            <p id="status" class="status" role="status"></p>
+            <button type="submit">保存设置</button>
+          </footer>
+        </form>
+      </section>
+    </main>
+    <script type="module" src="./options.js"></script>
+  </body>
+</html>

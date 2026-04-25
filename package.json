@@ -1,0 +1,12 @@
+{
+  "name": "organize-115-media",
+  "version": "0.1.0",
+  "description": "115网盘影视 Chrome 扩展整理助手",
+  "type": "module",
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

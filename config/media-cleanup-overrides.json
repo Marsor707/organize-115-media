@@ -1,0 +1,77 @@
+{
+  "noiseKeywords": [
+    "高清影视之家",
+    "高清剧集网",
+    "阳光电影",
+    "BD影视分享",
+    "梦幻天堂·龙网",
+    "高清MP4电影",
+    "首发于",
+    "更多高清剧集下载请访问"
+  ],
+  "canonicalTitleOverrides": {
+    "madeinabyssmovie3fukakitamashiinoreimei::madeinabyssmovie3fukakitamashiinoreimei": {
+      "sourceRoot": "Made In Abyss Movie 3 Fukaki Tamashii No Reimei",
+      "sourceTitle": "Made In Abyss Movie 3 Fukaki Tamashii No Reimei",
+      "canonicalTitleZh": "来自深渊：深沉灵魂的黎明",
+      "canonicalTitleEn": "Made in Abyss: Dawn of the Deep Soul",
+      "tmdbType": "movie"
+    },
+    "madeinabyssmovie3fukakitamashiinoreimei::marulkchannonichijou": {
+      "sourceRoot": "Made In Abyss Movie 3 Fukaki Tamashii No Reimei",
+      "sourceTitle": "Marulk Chan No Nichijou",
+      "canonicalTitleZh": "玛露露库的日常",
+      "canonicalTitleEn": "Made in Abyss: Marulk's Daily Life",
+      "tmdbType": "tv"
+    },
+    "来自深渊出发的黎明::来自深渊出发的黎明madeinabyssjourneysdawnbd1080p日语中字": {
+      "sourceRoot": "来自深渊：出发的黎明",
+      "sourceTitle": "来自深渊：出发的黎明 Made in Abyss Journey's Dawn BD1080P 日语中字",
+      "canonicalTitleZh": "来自深渊：出发的黎明",
+      "canonicalTitleEn": "Made in Abyss: Journey's Dawn",
+      "tmdbType": "movie"
+    },
+    "来自深渊流浪的黄昏::来自深渊流浪的黄昏madeinabysswanderingtwilightbd1080p日语中字": {
+      "sourceRoot": "来自深渊：流浪的黄昏",
+      "sourceTitle": "来自深渊：流浪的黄昏 Made in Abyss Wandering Twilight BD1080P 日语中字",
+      "canonicalTitleZh": "来自深渊：流浪的黄昏",
+      "canonicalTitleEn": "Made in Abyss: Wandering Twilight",
+      "tmdbType": "movie"
+    },
+    "来自深渊深沉灵魂的黎明::来自深渊深沉灵魂的黎明madeinabyssmovie3dawnofthedeepsoulbd720p日语中字": {
+      "sourceRoot": "来自深渊：深沉灵魂的黎明",
+      "sourceTitle": "来自深渊：深沉灵魂的黎明 Made in Abyss Movie 3 Dawn of the Deep Soul BD720P 日语中字",
+      "canonicalTitleZh": "来自深渊：深沉灵魂的黎明",
+      "canonicalTitleEn": "Made in Abyss: Dawn of the Deep Soul",
+      "tmdbType": "movie"
+    },
+    "链锯人剧场版蕾塞篇::链锯人剧场版蕾塞篇": {
+      "sourceRoot": "链锯人剧场版：蕾塞篇",
+      "sourceTitle": "链锯人剧场版：蕾塞篇",
+      "canonicalTitleZh": "链锯人剧场版：蕾塞篇",
+      "canonicalTitleEn": "Chainsaw Man – The Movie: Reze Arc",
+      "tmdbType": "movie"
+    },
+    "链锯人剧场版蕾塞篇::链锯人剧场版蕾塞篇劇場版チェンソーマンレゼ篇": {
+      "sourceRoot": "链锯人剧场版：蕾塞篇",
+      "sourceTitle": "链锯人剧场版：蕾塞篇 劇場版 チェンソーマン レゼ篇",
+      "canonicalTitleZh": "链锯人",
+      "canonicalTitleEn": "Chainsaw Man",
+      "tmdbType": "movie"
+    },
+    "命运奇异赝品黎明低语::fatestrangefakewhispersofdawnspv2": {
+      "sourceRoot": "命运／奇异赝品.黎明低语",
+      "sourceTitle": "Fate Strange Fake Whispers Of Dawn SPv2",
+      "canonicalTitleZh": "命运／奇异赝品 黎明低语",
+      "canonicalTitleEn": "Fate/strange Fake -Whispers of Dawn-",
+      "tmdbType": "tv"
+    },
+    "命运之夜——天之杯iii春之歌::命运之夜——天之杯iii春之歌fatestaynightheavensfeeliiiilspringsongbd1080p日语中字": {
+      "sourceRoot": "命运之夜——天之杯Ⅲ：春之歌",
+      "sourceTitle": "命运之夜——天之杯Ⅲ：春之歌 Fate stay night Heaven s Feel IIII lspring song BD1080P 日语中字",
+      "canonicalTitleZh": "命运之夜——天之杯Ⅲ：春之歌",
+      "canonicalTitleEn": "Fate/stay night: Heaven's Feel III. spring song",
+      "tmdbType": "movie"
+    }
+  }
+}
